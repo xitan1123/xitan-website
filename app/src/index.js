@@ -5,10 +5,10 @@ import './index.css';
 const app = dva({
     initialState: {
         products: [
-            {name: 'dva', id: 1},
-            {name: 'antd', id: 2}
-        ]
-    }
+            { name: 'dva', id: 1 },
+            { name: 'antd', id: 2 },
+        ],
+    },
 });
 
 // 2. Plugins
