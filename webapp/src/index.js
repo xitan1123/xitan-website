@@ -8,7 +8,8 @@ class Index extends React.Component {
     return (
       <div>
         <Navbar />
-        1123
+
+        <div className="container"></div>
       </div>
     )
   }
