@@ -5,10 +5,6 @@ import PageTitle from './components/PageTitle'
 import Footer from './components/Footer'
 
 class Home extends React.Component {
-  componentDidMount() {
-    document.body.style.backgroundColor = '#1BBC9B'
-  }
-
   render() {
     return (
       <div className="row">

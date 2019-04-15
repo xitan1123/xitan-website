@@ -3,11 +3,8 @@ import React from 'react'
 import Nav from './components/Nav'
 import PageTitle from './components/PageTitle'
 
+// http://www.os-easy.com/portal/page/index/id/39.html
 class TechnicalService extends React.Component {
-  componentDidMount() {
-    document.body.style.backgroundColor = '#334455'
-  }
-
   render() {
     return (
       <div className="row">
