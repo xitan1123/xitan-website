@@ -2,7 +2,9 @@ import React from 'react'
 import { HashRouter, Route } from 'react-router-dom'
 
 import Home from './Home'
-import Page2 from './Page2'
+import Consult from './Consult'
+import TechnicalService from './TechnicalService'
+import HRService from './HRService'
 import Footer from './components/Footer'
 
 const App = () => (
@@ -14,7 +16,9 @@ const App = () => (
 
       <div className="mt-5">
         <Route exact path="/" component={Home} />
-        <Route path="/page2" component={Page2} />
+        <Route path="/consult" component={Consult} />
+        <Route path="/technical-service" component={TechnicalService} />
+        <Route path="/hr-service" component={HRService} />
       </div>
 
       <Footer />

@@ -10,20 +10,31 @@ const Nav = props => (
         首页
       </a>
     </li>
+
     <li className="nav-item">
       <a
-          className={`nav-link ${props.page === 'page2' ? 'text-active' : 'text-second'}`}
-          href="#page2"
+          className={`nav-link ${props.page === 'consult' ? 'text-active' : 'text-second'}`}
+          href="#consult"
       >
-        页2
+        技术咨询
       </a>
     </li>
+
     <li className="nav-item">
       <a
-          className={`nav-link ${props.page === 'page3' ? 'text-active' : 'text-second'}`}
-          href="#"
+          className={`nav-link ${props.page === 'technical-service' ? 'text-active' : 'text-second'}`}
+          href="#technical-service"
       >
-        页3
+        技术服务
+      </a>
+    </li>
+
+    <li className="nav-item">
+      <a
+          className={`nav-link ${props.page === 'hr-service' ? 'text-active' : 'text-second'}`}
+          href="#hr-service"
+      >
+        人才服务
       </a>
     </li>
   </ul>

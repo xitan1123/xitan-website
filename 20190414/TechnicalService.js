@@ -3,7 +3,7 @@ import React from 'react'
 import Nav from './components/Nav'
 import PageTitle from './components/PageTitle'
 
-class Page2 extends React.Component {
+class TechnicalService extends React.Component {
   componentDidMount() {
     document.body.style.backgroundColor = '#334455'
   }
@@ -12,15 +12,15 @@ class Page2 extends React.Component {
     return (
       <div className="row">
         <div className="col-2">
-          <Nav page="page2" />
+          <Nav page="technical-service" />
         </div>
 
         <div className="col">
-          <PageTitle caption="Page 2" />
+          <PageTitle caption="技术服务" />
         </div>
       </div>
     )
   }
 }
 
-export default Page2
+export default TechnicalService
